@@ -1,6 +1,118 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 .container {
     width: 100%;
     padding: 0 40px;
     margin: 0 auto;
-    font-size: 100px;
 }
+
+/* HEADER */
+header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    width: 15%;
+}
+header .menu--wrapper {
+    display: flex;
+}
+header .menu--wrapper .menu {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+    cursor: pointer;
+}
+header .menu--wrapper .menu a {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 4rem;
+    transition: .25s ease-in-out;
+    text-decoration: none;
+    color: #000;
+}
+header .menu--wrapper .menu a:hover {
+    color: #0035c2;
+}
+header .menu--wrapper .btn--wrapper {
+    width: 100px;
+    background-color:#fcfcfc;
+    border-radius: 30px;
+    display: flex;
+    padding: .75rem;
+    cursor: pointer;
+    transition: .25s;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+header .menu--wrapper .btn--wrapper:hover {
+    opacity: .7;
+}
+header .menu--wrapper .btn--wrapper p {
+    font-size: 16px;
+    color: #0035c2;
+    font-weight: 600;
+}
+header .menu--wrapper .btn--wrapper img {
+    width: 22px;
+}
+/* END OF HEADER */
+
+/* HERO SECTION */
+.hero--wrapper {
+    margin: 0 40px;
+    padding: 0 40px;
+    border-radius: 30px;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30rem;
+}
+.hero--wrapper .title--wrapper {
+    width: 45%;
+}
+.hero--wrapper .title--wrapper span {
+    color: #0035c2;
+    font-weight: 600;
+    font-size: 16px;
+}
+.hero--wrapper .title--wrapper h2 {
+    font-weight: 800;
+    font-size: 4rem;
+    padding: 1rem 0;
+    color: #091d69;
+}
+.hero--wrapper .title--wrapper .btn--wrapper {
+    background-color: #0035c2;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    justify-content: center;
+    width: 160px;
+    display: flex;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: .35s;
+}
+.hero--wrapper .title--wrapper .btn--wrapper:hover {
+    opacity: .7;
+}
+.hero--wrapper .title--wrapper .btn--wrapper a {
+    font-weight: 800;
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+/* END OF HERO SECTION */
