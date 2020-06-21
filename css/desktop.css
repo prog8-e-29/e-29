@@ -1,3 +1,4 @@
+
 /* RESET */
 * {
     margin: 0;
@@ -7,12 +8,6 @@
 
 body {
     font-family: 'Inter', sans-serif;
-}
-
-.container {
-    width: 100%;
-    padding: 0 40px;
-    margin: 0 auto;
 }
 
 /* HEADER */
@@ -116,3 +111,61 @@ header .menu--wrapper .btn--wrapper img {
 }
 
 /* END OF HERO SECTION */
+
+footer {
+    background-color: #fcfcfc;
+    height: 300px;
+}
+
+.company-profile {
+    padding: 60px 40px;
+    width: 220px;
+}
+
+.company-icon {
+    padding-bottom: 60px;
+}
+
+.company-profile span {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.lists {
+    display: flex;
+}
+
+.list {
+    padding: 70px 105px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+li.title {
+    font-size: 24px;
+    line-height: 29px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+    padding-bottom: 32px;
+}
+
+li {
+    flex: auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.3);
+}
