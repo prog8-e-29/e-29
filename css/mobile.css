@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+  .hero--wrapper .title--wrapper h2 {
+    font-size: 2rem;
+  }
+  .menu {
+    display: none;
+  }
+  .fas.fa-bars {
+    display: block;
+    padding-top: 10px;
+  }
+  a.btn--wraper {
+    display: none;
+  }
+  p.cart img.cart {
+    display: none;
+  }
+  .product {
+    display: none;
+  }
+  .product-active {
+    display: block;
+  }
+}
