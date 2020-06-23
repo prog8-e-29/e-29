@@ -115,6 +115,40 @@ header .menu--wrapper .btn--wrapper img {
 }
 /* END OF HERO SECTION */
 
+/* MENU SECTION */
+.menus-wrapper {
+  height: 225px;
+  list-style: none;
+  margin: 55px 0px 130px 0px;
+  text-align: center;
+  display: flex;
+}
+
+.menu-list {
+  width: 20%;
+  background-color: rgba(255, 188, 85, 0.1);
+  margin-right: 35px;
+  flex: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.menus-wrapper p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  /*line-height: 29px;*/
+  margin-top: 24px;
+  font-size: 25px;
+  color: #ffb440;
+}
+
+.menu-icon {
+  width: 80px;
+  margin-top: 45px;
+}
+/* END OF MEU SECTION */
+
 /* EXPLORE PRODUCT SECTION */
 .explore--wrapper {
   display: flex;
