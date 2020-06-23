@@ -116,36 +116,30 @@ header .menu--wrapper .btn--wrapper img {
 /* END OF HERO SECTION */
 
 /* MENU SECTION */
-.menus-wrapper {
-  height: 225px;
-  list-style: none;
-  margin: 55px 0px 130px 0px;
-  text-align: center;
+.menus--wrapper {
   display: flex;
+  padding: 40px;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-
-.menu-list {
-  width: 20%;
-  background-color: rgba(255, 188, 85, 0.1);
-  margin-right: 35px;
-  flex: auto;
-  border-radius: 20px;
+.menus--wrapper .menu--wrapper {
+  padding: 1.5rem 2rem;
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgba(255, 180, 64, .1);
+  width: 150px;
+  height: 150px;
+  transition: .25s;
   cursor: pointer;
+  margin-bottom: 1rem;
 }
-
-.menus-wrapper p {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  /*line-height: 29px;*/
-  margin-top: 24px;
-  font-size: 25px;
-  color: #ffb440;
+.menus--wrapper .menu--wrapper:hover {
+  background-color: rgba(255, 180, 64, .05);
 }
-
-.menu-icon {
-  width: 80px;
-  margin-top: 45px;
+.menus--wrapper .menu--wrapper .title {
+  margin-top: 1rem;
+  color:rgb(255, 180, 64);
 }
 /* END OF MEU SECTION */
 
@@ -302,9 +296,10 @@ header .menu--wrapper .btn--wrapper img {
 .newsletter--wrapper .email--wrapper {
   margin-top: 4rem;
   display: flex;
-  justify-content: space-around;
-  padding: 0 10rem;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 11rem;
 }
 .newsletter--wrapper .email--wrapper input {
   background: #fff;
@@ -313,7 +308,7 @@ header .menu--wrapper .btn--wrapper img {
   height: 4rem;
   border-radius: 30px;
   text-indent: 2rem;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 800;
 }
 .newsletter--wrapper .email--wrapper a {
@@ -323,73 +318,70 @@ header .menu--wrapper .btn--wrapper img {
   text-decoration: none;
   color: #fcfcfc;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 16px;
   transition: 0.25s;
+  margin-left: 2rem;
 }
 .newsletter--wrapper .email--wrapper a:hover {
   background-color: rgba(0, 53, 194, 0.6);
 }
 /* END OF NEWSLETTER SECTION */
 
+/* FOOTER */
+
 footer {
-  margin: 40px;
-  border-radius: 30px;
-  background-color: #fcfcfc;
-}
-
-footer .container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.company-profile {
-  padding: 60px 40px;
-}
-
-.company-icon {
-  padding-bottom: 60px;
-}
-
-.company-profile span {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.lists {
-  width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 0 7rem;
+  margin: 60px 40px;
+  background: #fcfcfc;
+  border-radius: 30px;
+  flex-wrap: wrap;
 }
-
-ul {
-  list-style-type: none;
+footer .logo--wrapper {
+  padding: 3rem;
+}
+footer .cc--wrapper {
+  margin-top: 2rem;
+}
+footer .cc--wrapper .icon--wrapper {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+}
+footer .cc--wrapper .icon--wrapper img {
+  padding: 0 .75rem;
+  cursor: pointer;
+}
+footer .cc--wrapper .title {
+  margin-top: 1rem;
+  opacity: .7;
+}
+footer .menu--wrapper {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer .menu--wrapper .content--wrapper {
+  padding: 1.5rem;
+}
+footer .menu--wrapper .content--wrapper .title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+footer .menu--wrapper .content--wrapper .sub-menu {
+  display: flex;
+  flex-flow: column;
+}
+footer .menu--wrapper .content--wrapper .sub-menu a {
+  margin-bottom: .50rem;
+  opacity: .5;
+  text-decoration: none;
+  color: #000;
+  transition: .25s;
+}
+footer .menu--wrapper .content--wrapper .sub-menu a:hover {
+  color: #0035c2;
 }
 
-li.title {
-  font-size: 24px;
-  line-height: 29px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  color: black;
-  padding-bottom: 32px;
-}
-
-li {
-  flex: auto;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  color: rgba(0, 0, 0, 0.3);
-}
+/* END OF FOOTER */
