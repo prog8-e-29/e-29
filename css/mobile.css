@@ -1,0 +1,65 @@
+@media screen and (max-width: 600px) {
+  .hero--wrapper {
+    height: 20rem;
+  }
+  .hero--wrapper .img--wrapper img {
+    width: 250px;
+  }
+  .hero--wrapper .title--wrapper span {
+    font-size: 12px;
+  }
+  .hero--wrapper .title--wrapper h2 {
+    font-size: 1.5rem;
+  }
+  .hero--wrapper .title--wrapper .btn--wrapper {
+    width: 150px;
+    margin-top: 1rem;
+  }
+  .hero--wrapper .title--wrapper .btn--wrapper a {
+    font-size: 14px;
+  }
+  .menu {
+    display: none;
+  }
+  .fas.fa-bars {
+    display: block;
+    padding-top: 10px;
+  }
+  a.btn--wraper {
+    display: none;
+  }
+  p.cart img.cart {
+    display: none;
+  }
+  .product {
+    display: none;
+  }
+  .product-active {
+    display: block;
+  }
+
+  .explore--wrapper {
+    padding: 20px 0;
+  }
+  .explore--wrapper .product--wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .explore--wrapper .title--wrapper .title span {
+    font-size: 16px;
+  }
+  .explore--wrapper .title--wrapper .title .txt {
+    font-size: 36px;
+  }
+  .explore--wrapper .title--wrapper .arrow-btn {
+    width: 25%;
+  }
+  .explore--wrapper .title--wrapper .arrow-btn img {
+    width: 30px;
+  }
+
+
+
+}
