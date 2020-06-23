@@ -1,6 +1,132 @@
 .container {
-    width: 100%;
-    padding: 0 40px;
+    width: 1294px;
     margin: 0 auto;
-    font-size: 100px;
 }
+
+.menus-wrapper {
+    height: 225px;
+    list-style: none;
+    margin: 55px 0px 130px 0px;
+    text-align: center;
+    display: flex;
+}
+
+
+.menu-list {
+    width: 20%;
+    background-color:rgba(255, 188, 85, 0.1);
+    margin-right: 35px;
+    flex: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.menus-wrapper p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    /*line-height: 29px;*/
+    margin-top: 24px;
+    font-size: 25px;
+    color: #ffb440;
+}
+
+.menu-icon {
+    width: 80px;
+    margin-top: 45px;
+}
+
+.products {
+    margin: 0px 40px 300px 40px;
+
+}
+
+.products-heading {
+    padding-bottom: 95px;
+}
+
+.products-heading h1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #0035C2;
+    line-height: 3px;
+}
+
+.products-heading h2{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 62px;
+    color: black;
+    margin-top: 3px;
+}
+
+/*.products-heading-btn {
+    display: inline-block;
+    float: right;
+    width: 500px;
+}*/
+
+.products-wrapper {
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+
+.product {
+    flex: auto;
+    width: 30%;
+    margin-right: 45px;
+    background-color: #fcfcfc;
+    height: 390px;
+}
+
+.product-pic {
+    margin-top: 10px;
+}
+
+.product p{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.product-footer {
+    margin-top: 20px;
+}
+
+.product-btn {
+    float: left;
+    background-color: #ffb440;
+    padding: 15px 23px;
+    border-radius: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.3s;
+    
+}
+
+.product-btn:hover {
+    opacity: 1;
+}
+
+.product-price {
+    float: right;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+/*.nike {
+    margin-top: 100px;
+}*/
